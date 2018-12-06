@@ -5,6 +5,7 @@ import axios from 'axios';
 import { Button } from 'reactstrap';
 import _ from 'lodash';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 class App extends Component {
@@ -89,7 +90,7 @@ class App extends Component {
           noOptionMessage={() => 'Start typing to find a user...'}
         />
         <br />
-        <Button color="Success" onClick={this.showUsers}>
+        <Button color="success" onClick={this.showUsers}>
           Show Users
         </Button>
       </div>
